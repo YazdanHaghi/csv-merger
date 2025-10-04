@@ -50,7 +50,7 @@ python combine_sku_rows.py
 By default, it reads from input.csv and writes the combined result to output.csv.
 
 You can also specify custom file names and encoding by editing the function call at the bottom of the script:
-
+``` python
 if __name__ == "__main__":
     consolidate_all_values(
         input_csv="your_file.csv",
@@ -58,7 +58,7 @@ if __name__ == "__main__":
         sku_col="SKU",
         encoding="utf-8-sig"
     )
-
+```
 ### Requirements
 
 Python ≥ 3.8
